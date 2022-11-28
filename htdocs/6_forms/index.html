@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="forms.php" method="post">
+        <fieldset>
+            <legend>Inicio de Sesion</legend>
+            <label for="fname">Nombre</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Nombre"><br>
+        <br>
+        
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="mail@mail.com">
+        <br>
+        
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password" name="password" placeholder="Contraseña">
+        <br>
+        </fieldset>
+            
+                <input type="radio" name="dep" id="compras" value="compras">
+                <label for="compras">Departamento de compras</label><br>
+
+                <input type="radio" name="dep" id="attcl" value="attcliente">
+                <label for="attcl">Departamento de atención al cliente</label><br>
+
+                <input type="radio" name="dep" id="ventas" value="ventas">
+                <label for="ventas">Departamento de ventas</label><br>
+            <br>
+            
+                <input type="checkbox" name="TyC" id="TyC">
+                <label for="TyC">Acepto los términos y condiciones de uso</label>
+            <br>
+            <br>
+            
+            <label for="Usuarios">Selecione el tipo de usuario:</label>
+            <select name="Usuarios" id="Usuarios">
+                <optgroup label="Gratis"></optgroup>
+                <option value="Registrado">Registrado</option>
+                <option value="SinRegistrar">Sin Registrar</option>
+                <optgroup label="Pago"></optgroup>
+                <option value="VIP">VIP</option>
+            </select>
+            <br>
+            <br>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Texto"></textarea>
+            <br>
+            <input type="submit" value="Enviar"></input>
+    </form>
+</body>
+</html>
