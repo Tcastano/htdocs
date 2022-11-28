@@ -1,5 +1,7 @@
 <?php
 
+require_once('1_arrays.php');
+
 /**
  * 
  * 2. Formularios
@@ -11,3 +13,18 @@
  * 
  * 
  */
+
+
+
+ //var_dump($notas);
+
+    foreach ($notas as $nombre => $asignaturas) {
+       
+        var_dump($notas);
+        echo("<br>");
+    
+        var_dump($nombre);
+        echo("<br>");
+    
+        var_dump($asignaturas);
+    }

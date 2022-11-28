@@ -17,4 +17,5 @@ foreach ($alumnos as $nombre) {
 foreach ($notas as $nombre => $curso) {
     $notas[$nombre]["DWES"]=rand(1,10);
 }
+
 print("<pre>".print_r($notas,true)."</pre>");
