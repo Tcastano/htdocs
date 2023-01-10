@@ -7,6 +7,8 @@
  * Añadir por cada estudiante, una clave más "DWEC" con números aleatorios entre 1 y 10.
  * 
  */
+
+ 
 $notas=[];
 $alumnos=["hugo","marta","fabio","siro","mario"];
 

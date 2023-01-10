@@ -18,13 +18,18 @@ require_once('1_arrays.php');
 
  //var_dump($notas);
 
-    foreach ($notas as $nombre => $asignaturas) {
-       
-        var_dump($notas);
-        echo("<br>");
-    
-        var_dump($nombre);
-        echo("<br>");
-    
-        var_dump($asignaturas);
+    for ($i=0; $i <5 ; $i++) {
+        $nombrealumno=$alumnos[$i];
+        foreach ($notas as $nombrealumno => $value) {
+            echo($nombrealumno .":");
+            var_dump($notas[$nombrealumno]);
+            $nota=$notas[$nombrealumno];
+            foreach ($nota as $key => $value) {
+                $numero=$nota [$key];
+            }
+            echo($nota);
+            echo($numero);
+            echo("<br>");
+            
+        }
     }

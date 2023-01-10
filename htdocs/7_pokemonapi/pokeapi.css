@@ -1,0 +1,10 @@
+#carta {
+    margin-top:20px !important;
+    min-height: 570px;
+}
+
+@media (max-width: 900px) {
+    #carta {
+        min-height: 600px;
+    }
+  }
